@@ -4,7 +4,42 @@
 }
 
 
-#pain{
-    color: blue;
-    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+.menu-container{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo-photo{
+    width: 200px;
+}
+
+li{
+    list-style: none;
+    text-decoration:none;
+    transition: all .5s ease-in;
+}
+
+.menus{
+    display: flex;
+}
+
+.item{
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+li{
+    text-decoration:none;
+    transition: all .5s ease-in;
+}
+
+
+li:hover{
+   color: rgb(0, 26, 255);
+   cursor: pointer;
 }
